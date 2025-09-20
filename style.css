@@ -18,3 +18,39 @@ h1 {
 img {
     vertical-align: middle;
 }
+
+main {
+    background-color: rgb(233, 227, 227);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.corpo {
+    background-color: white;
+    height: 650px;
+}
+
+button {
+    margin-top: 10px,
+}
+
+.btn-task {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(100, 100, 219);
+    color: white;
+    border: 1px solid rgb(130, 241, 241);
+    padding: 8px 12px;
+    border-radius: 12%;
+}
+
+.btn-section {
+    background-color: white;
+    color: gray;
+    border: 1px solid rgb(151, 148, 148);
+    padding: 8px 12px;
+    border-radius: 12%;
+}
