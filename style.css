@@ -60,18 +60,85 @@ h3 {
 }
 
 .new-task {
-   /* margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px; */
     margin: 30px 0px 20px 50px;
 }
 
 .today {
-    /*margin-bottom: 20px;
-    margin-left: 50px;*/
     margin: 0px 0px 20px 50px;
 }
 
 .upcoming {
     margin: 0px 50px;
+}
+
+.check {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 100%;
+    color: green;
+    padding: 3px;
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+.cross {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 100%;
+    color: red;
+    padding: 3px;
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+.editorial {
+    background-color: rgb(113, 230, 230);
+    border: 1px solid rgb(14, 194, 194);
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.q1-goals {
+    background-color: violet;
+    border: 1px solid rgb(150, 73, 150);
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.recruiting {
+    background-color: green;
+    border: 1px solid rgb(39, 112, 39);
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.mobile {
+    background-color: orange;
+    border: 1px solid rgb(160, 110, 17);
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.website {
+    background-color: pink;
+    border: 1px solid rgb(190, 115, 127);
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.sales {
+    background-color: rgb(96, 226, 96);
+    border: 1px solid green;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.spazio {
+    margin-top: 15px;
 }
