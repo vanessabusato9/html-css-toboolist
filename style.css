@@ -57,10 +57,12 @@ button {
 
 h3 {
     color: black;
+    display: inline-block;
 }
 
 .new-task {
     margin: 30px 0px 20px 50px;
+    display: inline-block;
 }
 
 .today {
@@ -141,4 +143,12 @@ h3 {
 
 .spazio {
     margin-top: 15px;
+}
+
+.triangolo {
+      border-top: 7px solid black;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      text-align: center;
+      display: inline-block;
 }
