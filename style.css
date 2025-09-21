@@ -1,9 +1,11 @@
+/*CSS Reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Header*/
 header {
     height: 50px;
     margin: 10px 20px;
@@ -17,12 +19,7 @@ h1 {
     display: inline-block;
 }
 
-main {
-    background-color: rgb(233, 227, 227);
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-
+/*Container*/
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -30,6 +27,7 @@ main {
     height: 650px;
 }
 
+/*Buttons*/
 button {
     margin-top: 10px,
 }
@@ -50,6 +48,20 @@ button {
     border: 1px solid rgb(151, 148, 148);
     padding: 8px 12px;
     border-radius: 12%;
+}
+
+/*Separator*/
+.separator {
+    margin: 10px 0;
+    border: 1px solid rgb(221, 212, 212);
+}
+
+
+/*Content*/
+main {
+    background-color: rgb(233, 227, 227);
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -150,7 +162,4 @@ h3 {
       display: inline-block;
 }
 
-.separator {
-    margin: 10px 0;
-    border: 1px solid rgb(221, 212, 212);
-}
+
