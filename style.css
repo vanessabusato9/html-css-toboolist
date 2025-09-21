@@ -19,6 +19,8 @@ h1 {
 
 main {
     background-color: rgb(233, 227, 227);
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .container {
