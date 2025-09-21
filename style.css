@@ -4,19 +4,17 @@
     box-sizing: border-box;
 }
 
-
 header {
     height: 50px;
     margin: 10px 20px;
+}
+
+#logo {
     vertical-align: middle;
 }
 
 h1 {
     display: inline-block;
-}
-
-img {
-    vertical-align: middle;
 }
 
 main {
@@ -26,9 +24,6 @@ main {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-}
-
-.corpo {
     background-color: white;
     height: 650px;
 }
@@ -141,11 +136,11 @@ h3 {
     padding: 5px 10px;
 }
 
-.spazio {
+.space {
     margin-top: 15px;
 }
 
-.triangolo {
+.triangle {
       border-top: 7px solid black;
       border-left: 7px solid transparent;
       border-right: 7px solid transparent;
@@ -153,7 +148,7 @@ h3 {
       display: inline-block;
 }
 
-.separatore {
+.separator {
     margin: 10px 0;
     border: 1px solid rgb(221, 212, 212);
 }
